@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="vaultGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="innerGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+  <polygon points="50,5 90,27.5 90,72.5 50,95 10,72.5 10,27.5" stroke="url(#vaultGrad)" stroke-width="6" fill="#080D1A" fill-opacity="0.85"/>
+  <polygon points="50,22 75,36 75,64 50,78 25,64 25,36" stroke="url(#innerGrad)" stroke-width="4" fill="none"/>
+  <circle cx="50" cy="50" r="10" fill="url(#vaultGrad)"/>
+  <line x1="50" y1="5" x2="50" y2="22" stroke="url(#vaultGrad)" stroke-width="3"/>
+  <line x1="90" y1="27.5" x2="75" y2="36" stroke="url(#vaultGrad)" stroke-width="3"/>
+  <line x1="90" y1="72.5" x2="75" y2="64" stroke="url(#vaultGrad)" stroke-width="3"/>
+  <line x1="50" y1="95" x2="50" y2="78" stroke="url(#vaultGrad)" stroke-width="3"/>
+  <line x1="10" y1="72.5" x2="25" y2="64" stroke="url(#vaultGrad)" stroke-width="3"/>
+  <line x1="10" y1="27.5" x2="25" y2="36" stroke="url(#vaultGrad)" stroke-width="3"/>
+</svg>
