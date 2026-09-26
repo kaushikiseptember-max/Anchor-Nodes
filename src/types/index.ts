@@ -165,3 +165,25 @@ export interface ToastNotification {
   type: 'info' | 'success' | 'warning' | 'error';
   timestamp: number;
 }
+
+
+export interface User {
+  id: string;
+  name: string;
+  email: string;
+}
+
+export interface AuthResponse {
+  success: boolean;
+  token: string;
+  user: User;
+  error?: {
+    code: string;
+    message: string;
+  };
+}
+
+export interface AuthError {
+  code: string;
+  message: string;
+}
