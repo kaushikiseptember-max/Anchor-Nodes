@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import { Button } from "../components/common/Button";
 
-const EMAIL_REGEX = /^[^s@]+@[^s@]+.[^s@]+$/;
+const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export const SignupPage: React.FC = () => {
   const { signup, setAuthPage } = useAuth();
